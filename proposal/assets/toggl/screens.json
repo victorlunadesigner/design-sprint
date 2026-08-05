@@ -1,0 +1,80 @@
+[
+  {
+    "step": 1,
+    "file": "01.webp",
+    "label": "Projects overview",
+    "alt": "Screen 1 of 13"
+  },
+  {
+    "step": 2,
+    "file": "02.webp",
+    "label": "Navigate to Projects",
+    "alt": "Screen 2 of 13"
+  },
+  {
+    "step": 3,
+    "file": "03.webp",
+    "label": "Click Create project",
+    "alt": "Screen 3 of 13"
+  },
+  {
+    "step": 4,
+    "file": "04.webp",
+    "label": "New project form \u2014 name",
+    "alt": "Screen 4 of 13"
+  },
+  {
+    "step": 5,
+    "file": "05.webp",
+    "label": "Add project details",
+    "alt": "Screen 5 of 13"
+  },
+  {
+    "step": 6,
+    "file": "06.webp",
+    "label": "Select client",
+    "alt": "Screen 6 of 13"
+  },
+  {
+    "step": 7,
+    "file": "07.webp",
+    "label": "Set project color",
+    "alt": "Screen 7 of 13"
+  },
+  {
+    "step": 8,
+    "file": "08.webp",
+    "label": "Configure billable settings",
+    "alt": "Screen 8 of 13"
+  },
+  {
+    "step": 9,
+    "file": "09.webp",
+    "label": "Project created \u2014 overview",
+    "alt": "Screen 9 of 13"
+  },
+  {
+    "step": 10,
+    "file": "10.webp",
+    "label": "Invite teammates prompt",
+    "alt": "Screen 10 of 13"
+  },
+  {
+    "step": 11,
+    "file": "11.webp",
+    "label": "Invite by email",
+    "alt": "Screen 11 of 13"
+  },
+  {
+    "step": 12,
+    "file": "12.webp",
+    "label": "Invitation sent confirmation",
+    "alt": "Screen 12 of 13"
+  },
+  {
+    "step": 13,
+    "file": "13.webp",
+    "label": "Project dashboard with team",
+    "alt": "Screen 13 of 13"
+  }
+]
