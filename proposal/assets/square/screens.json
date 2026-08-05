@@ -1,0 +1,56 @@
+[
+  {
+    "step": 1,
+    "file": "01.webp",
+    "label": "Calendar overview",
+    "desc": "Entry point — weekly schedule with Create action"
+  },
+  {
+    "step": 2,
+    "file": "02.webp",
+    "label": "Open create appointment",
+    "desc": "User clicks Create from the calendar"
+  },
+  {
+    "step": 3,
+    "file": "03.webp",
+    "label": "Select client",
+    "desc": "Search or pick an existing guest profile"
+  },
+  {
+    "step": 4,
+    "file": "04.webp",
+    "label": "Set date and time",
+    "desc": "Choose slot with Find availability"
+  },
+  {
+    "step": 5,
+    "file": "05.webp",
+    "label": "Add services",
+    "desc": "Configure service, duration, and pricing"
+  },
+  {
+    "step": 6,
+    "file": "06.webp",
+    "label": "Appointment notes",
+    "desc": "Internal notes visible to staff only"
+  },
+  {
+    "step": 7,
+    "file": "07.webp",
+    "label": "Review client context",
+    "desc": "Sidebar shows history, notes, and cards on file"
+  },
+  {
+    "step": 8,
+    "file": "08.webp",
+    "label": "Save appointment",
+    "desc": "Confirmation and return to calendar"
+  },
+  {
+    "step": 9,
+    "file": "09.webp",
+    "label": "Appointment detail panel",
+    "desc": "End goal — booking visible with status and actions"
+  }
+]

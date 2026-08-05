@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Async Design Sprint — Presentation</title>
+  <title>SerVme V2 — Design Sprint Proposal</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -41,12 +41,12 @@
     <!-- COVER -->
     <section class="page" id="page-0">
       <div class="page-inner cover">
-        <p class="cover-label">Proposal</p>
+        <p class="cover-label">Proposal for SerVme</p>
         <h1 class="cover-title">Async Product<br>Design Sprint</h1>
-        <p class="cover-sub">One complete user flow in four weeks. Async collaboration, focused deliverables, room to grow.</p>
+        <p class="cover-sub">One complete user flow in four weeks — tailored to the SerVme V2 Reservations module. Async collaboration, MUI-ready deliverables, room to grow across phases.</p>
         <div class="cover-meta">
-          <div><strong>4 weeks</strong>Duration</div>
-          <div><strong>1 flow</strong>Deliverable</div>
+          <div><strong>4 weeks</strong>Per flow</div>
+          <div><strong>React + MUI</strong>Stack</div>
           <div><strong>Async</strong>Collaboration</div>
         </div>
       </div>
@@ -57,7 +57,7 @@
       <div class="page-inner">
         <p class="step-label">Overview</p>
         <h2>What this sprint is</h2>
-        <p class="lead">A focused, async four-week engagement to design one complete, shippable user flow — from research inputs to a high-fidelity prototype ready for development or user testing.</p>
+        <p class="lead">A focused, async four-week engagement to design one complete, shippable user flow for SerVme V2 — from your existing product context and knowledge base to a high-fidelity prototype ready for React + MUI development.</p>
 
         <h3>What you get</h3>
         <ul>
@@ -74,7 +74,7 @@
         </ul>
 
         <div class="callout">
-          <strong>After the sprint:</strong> Additional user flows are delivered through a monthly retainer — one sprint cycle per flow, at a reduced rate.
+          <strong>Phased delivery:</strong> Your Reservations Dashboard spans multiple views (List, Floor Plan, Grid, Cover Flow). We tackle one flow per sprint — starting with the highest-impact workflow — then continue through a monthly retainer at a reduced rate per flow.
         </div>
 
         <h3>How we'll work</h3>
@@ -208,19 +208,21 @@
         <h3>Why it matters</h3>
         <p>The screen inventory gives us a complete product map upfront. We design one flow in the sprint, but nothing launch-critical gets missed when we plan later phases.</p>
 
-        <p class="example-label">Example — Toggl Track</p>
+        <p class="example-label">Example — SerVme V2 (Reservations module)</p>
         <div class="table-wrap">
           <table class="example-table">
             <thead>
               <tr><th>Screen</th><th>Purpose</th><th>Priority</th><th>Exists?</th></tr>
             </thead>
             <tbody>
-              <tr><td>Timer dashboard</td><td>Track time entries</td><td><span class="tag">Must</span></td><td>Yes</td></tr>
-              <tr><td>Projects list</td><td>Organize work by project</td><td><span class="tag">Must</span></td><td>Yes</td></tr>
-              <tr><td>Create project modal</td><td>Add a new project</td><td><span class="tag">Must</span></td><td>Yes</td></tr>
-              <tr><td>Invite teammates</td><td>Add team to project</td><td><span class="tag">Should</span></td><td>Yes</td></tr>
-              <tr><td>Reports</td><td>View time analytics</td><td><span class="tag">Should</span></td><td>Yes</td></tr>
-              <tr><td>Integrations</td><td>Connect third-party tools</td><td><span class="tag">Later</span></td><td>Partial</td></tr>
+              <tr><td>Reservation List View</td><td>Scan and manage all bookings by status</td><td><span class="tag">Must</span></td><td>Yes (V1)</td></tr>
+              <tr><td>Add / Edit Reservation</td><td>Create bookings with guest breakdown &amp; tables</td><td><span class="tag">Must</span></td><td>Yes (V1)</td></tr>
+              <tr><td>Floor Plan View</td><td>Visual table status across sections</td><td><span class="tag">Must</span></td><td>Yes (V1)</td></tr>
+              <tr><td>Grid View</td><td>Timeline-based table scheduling</td><td><span class="tag">Must</span></td><td>Yes (V1)</td></tr>
+              <tr><td>Table Conflict Dialog</td><td>Resolve overlapping bookings</td><td><span class="tag">Must</span></td><td>Yes (V1)</td></tr>
+              <tr><td>Guest Detail Drawer</td><td>Profile, tags, booking history</td><td><span class="tag">Should</span></td><td>Yes (V1)</td></tr>
+              <tr><td>Cover Flow View</td><td>Capacity by time slot &amp; party size</td><td><span class="tag">Should</span></td><td>Yes (V1)</td></tr>
+              <tr><td>Export Dashboard</td><td>Custom Excel export of reservation data</td><td><span class="tag">Later</span></td><td>Yes (V1)</td></tr>
             </tbody>
           </table>
         </div>
@@ -244,15 +246,15 @@
         <h3>Why it matters</h3>
         <p>Design decisions get tested against one real person, not a vague "users" group. Every screen serves their goal.</p>
 
-        <p class="example-label">Example — Toggl Track (Creating a project flow)</p>
+        <p class="example-label">Example — SerVme (Adding a reservation flow)</p>
         <div class="kv-list">
-          <div class="kv-item"><span class="kv-key">Context</span><span class="kv-val">Freelance designer juggling 4–6 client projects simultaneously</span></div>
-          <div class="kv-item"><span class="kv-key">Role</span><span class="kv-val">Solo freelancer, makes all tool decisions</span></div>
-          <div class="kv-item"><span class="kv-key">Age</span><span class="kv-val">28–38</span></div>
-          <div class="kv-item"><span class="kv-key">Goals</span><span class="kv-val">Bill every hour accurately, never mix up client time</span></div>
-          <div class="kv-item"><span class="kv-key">Frustrations</span><span class="kv-val">Tracking time in spreadsheets, forgetting to log hours</span></div>
-          <div class="kv-item"><span class="kv-key">Limitations</span><span class="kv-val">Non-technical, 2 min max to set up a new project</span></div>
-          <div class="kv-item"><span class="kv-key">Trigger</span><span class="kv-val">Just signed a new client, needs a project before Monday</span></div>
+          <div class="kv-item"><span class="kv-key">Context</span><span class="kv-val">Front-of-house hostess at a multi-section restaurant (dining area + terrace) during a busy lunch shift</span></div>
+          <div class="kv-item"><span class="kv-key">Role</span><span class="kv-val">Hostess / reservations coordinator — uses the dashboard all day, every day</span></div>
+          <div class="kv-item"><span class="kv-key">Age</span><span class="kv-val">22–35</span></div>
+          <div class="kv-item"><span class="kv-key">Goals</span><span class="kv-val">Seat guests on time, never miss allergies or VIP tags, keep tables turning</span></div>
+          <div class="kv-item"><span class="kv-key">Frustrations</span><span class="kv-val">Too many columns to scan, guest tags hidden behind clicks, unclear late-arrival indicators</span></div>
+          <div class="kv-item"><span class="kv-key">Limitations</span><span class="kv-val">One hand on the phone, 30 seconds max to add a walk-in during service</span></div>
+          <div class="kv-item"><span class="kv-key">Trigger</span><span class="kv-val">Guest calls to book for tonight — needs party breakdown, table, and payment info fast</span></div>
         </div>
       </div>
     </section>
@@ -274,7 +276,7 @@
         <h3>Why it matters</h3>
         <p>The point cap forces prioritization. The level-3 job becomes the anchor for flow selection — we design what matters most first.</p>
 
-        <p class="example-label">Example — Toggl Track</p>
+        <p class="example-label">Example — SerVme V2</p>
         <div class="table-wrap">
           <table class="example-table">
             <thead>
@@ -282,20 +284,20 @@
             </thead>
             <tbody>
               <tr>
-                <td>When I start client work, I want to organize time by project, so I can bill accurately</td>
-                <td>3</td><td>5</td><td>Freelancer / team lead</td>
+                <td>When service starts, I want to scan all reservations at a glance, so I can spot late arrivals and seat guests on time</td>
+                <td>3</td><td>5</td><td>Hostess / FOH manager</td>
               </tr>
               <tr>
-                <td>When I'm mid-task, I want to start a timer instantly, so I don't lose billable hours</td>
-                <td>2</td><td>4</td><td>Individual contributor</td>
+                <td>When a guest calls or walks in, I want to add a reservation with party breakdown and table, so nothing gets missed</td>
+                <td>2</td><td>4</td><td>Hostess / reservations staff</td>
               </tr>
               <tr>
-                <td>When the month ends, I want a time report, so I can invoice clients</td>
-                <td>2</td><td>3</td><td>Freelancer</td>
+                <td>When tables overlap, I want to resolve conflicts in one action, so the floor keeps moving</td>
+                <td>2</td><td>4</td><td>FOH manager</td>
               </tr>
               <tr>
-                <td>When I hire someone, I want them on my workspace, so we track time together</td>
-                <td>1</td><td>2</td><td>Team admin</td>
+                <td>When a guest arrives, I want to update status and seated count instantly, so the kitchen and waitstaff stay in sync</td>
+                <td>1</td><td>3</td><td>Hostess</td>
               </tr>
             </tbody>
           </table>
@@ -322,12 +324,12 @@
           The sprint designs screens <strong>within this flow only</strong>. Must screens outside this flow stay on the backlog for the monthly retainer.
         </div>
 
-        <p class="example-label">Example — Toggl Track</p>
+        <p class="example-label">Example — SerVme V2</p>
         <div class="kv-list">
-          <div class="kv-item"><span class="kv-key">Chosen flow</span><span class="kv-val">Creating a project</span></div>
-          <div class="kv-item"><span class="kv-key">Tied to JTBD</span><span class="kv-val">Organize time by project for accurate billing</span></div>
-          <div class="kv-item"><span class="kv-key">Entry point</span><span class="kv-val">Sidebar → Projects → Create project button</span></div>
-          <div class="kv-item"><span class="kv-key">Success metric</span><span class="kv-val">User creates a project and logs first time entry in under 3 minutes</span></div>
+          <div class="kv-item"><span class="kv-key">Chosen flow</span><span class="kv-val">Adding a reservation</span></div>
+          <div class="kv-item"><span class="kv-key">Tied to JTBD</span><span class="kv-val">Add a reservation with party breakdown and table assignment</span></div>
+          <div class="kv-item"><span class="kv-key">Entry point</span><span class="kv-val">Reservation Dashboard → +RSRV button</span></div>
+          <div class="kv-item"><span class="kv-key">Success metric</span><span class="kv-val">Staff creates a reservation with guest breakdown, table, and payment in under 60 seconds</span></div>
         </div>
       </div>
     </section>
@@ -346,48 +348,53 @@
           <li>Optional branches, known pain points, out-of-scope items</li>
         </ul>
 
-        <p class="example-label">Example — Toggl Track: Creating a project</p>
-        <p style="margin-bottom:16px;"><strong>End goal:</strong> Project created with team invited, ready to track time.</p>
+        <p class="example-label">Example — SerVme V2: Adding a reservation</p>
+        <p style="margin-bottom:16px;"><strong>End goal:</strong> Reservation saved with guest profile, party breakdown, table assigned, and visible on the dashboard.</p>
 
         <div class="flow-map-list">
           <div class="flow-map-item">
             <div class="flow-step-num">1</div>
-            <span class="flow-map-text">User opens <strong>Projects</strong> from sidebar</span>
+            <span class="flow-map-text">Staff opens <strong>Reservation Dashboard</strong> and clicks <strong>+RSRV</strong></span>
             <span class="flow-map-badge">Required</span>
           </div>
           <div class="flow-map-item">
             <div class="flow-step-num">2</div>
-            <span class="flow-map-text">Clicks <strong>Create project</strong> button</span>
+            <span class="flow-map-text">Searches for guest by name or phone — or adds a new guest card</span>
             <span class="flow-map-badge">Required</span>
           </div>
           <div class="flow-map-item">
             <div class="flow-step-num">3</div>
-            <span class="flow-map-text">Enters project name and details in modal</span>
+            <span class="flow-map-text">Selects date, shift, and time slot from grouped shift timings</span>
             <span class="flow-map-badge">Required</span>
           </div>
           <div class="flow-map-item">
             <div class="flow-step-num">4</div>
-            <span class="flow-map-text">Selects client and configures settings</span>
+            <span class="flow-map-text">Sets party size and <strong>guest breakdown</strong> (adults, kids, toddlers)</span>
             <span class="flow-map-badge">Required</span>
           </div>
           <div class="flow-map-item">
             <div class="flow-step-num">5</div>
-            <span class="flow-map-text">Project created → sees project overview</span>
+            <span class="flow-map-text">Selects event, duration, and payment/deposit if required</span>
             <span class="flow-map-badge">Required</span>
           </div>
           <div class="flow-map-item">
             <div class="flow-step-num">6</div>
-            <span class="flow-map-text">Prompted to <strong>invite teammates</strong></span>
+            <span class="flow-map-text">Assigns table from recommendations or floor plan picker</span>
             <span class="flow-map-badge">Required</span>
           </div>
           <div class="flow-map-item">
             <div class="flow-step-num">7</div>
-            <span class="flow-map-text">Enters email addresses and sends invites</span>
-            <span class="flow-map-badge">Required</span>
+            <span class="flow-map-text">If table conflict → resolves via conflict dialog (adjust duration or unseat)</span>
+            <span class="flow-map-badge">Branch</span>
           </div>
           <div class="flow-map-item">
             <div class="flow-step-num">8</div>
-            <span class="flow-map-text">Confirmation shown → returns to project dashboard</span>
+            <span class="flow-map-text">Adds reservation tags, notes, and optional waiter assignment</span>
+            <span class="flow-map-badge">Optional</span>
+          </div>
+          <div class="flow-map-item">
+            <div class="flow-step-num">9</div>
+            <span class="flow-map-text">Saves reservation → appears on dashboard with status and guest tags visible</span>
             <span class="flow-map-badge">Required</span>
           </div>
         </div>
@@ -403,16 +410,23 @@
 
         <h3>What we collect</h3>
         <ul>
-          <li>Brand assets (logo, colors, fonts) or permission to propose</li>
-          <li>Existing UI — Figma links, screenshots, product URL</li>
-          <li>Platform (web, iOS, both) and auth model</li>
-          <li>2–3 competitor or reference links</li>
+          <li>Brand assets (logo, colors, fonts) or permission to propose within MUI</li>
+          <li>Existing UI — V1 screenshots, Figma files, knowledge base articles</li>
+          <li>Platform: React web app with Material UI component library</li>
+          <li>2–3 competitor or reference links (e.g. OpenTable, Resy, SevenRooms)</li>
           <li>Decision-maker name and feedback SLA (e.g. 48 hours)</li>
-          <li>Legal / compliance requirements if any</li>
         </ul>
 
         <h3>Why it matters</h3>
-        <p>Collected once, upfront. Prevents mid-sprint delays waiting for brand files or platform decisions.</p>
+        <p>Collected once, upfront. Your team is building on React + MUI — designs will map directly to your component library, preventing mid-sprint delays.</p>
+
+        <p class="example-label">SerVme references provided</p>
+        <ul>
+          <li><a href="https://knowledgecenter.servmeco.com/en/articles/8110195-reservation-list-view-dashboard-web-app">Reservation List View</a></li>
+          <li><a href="https://knowledgecenter.servmeco.com/en/articles/8110243-adding-and-editing-reservations-walkin-and-waitlist-web-app">Adding &amp; Editing Reservations</a></li>
+          <li><a href="https://knowledgecenter.servmeco.com/en/articles/6838585-resolving-table-conflicts">Table Management Conflicts</a></li>
+          <li><a href="https://knowledgecenter.servmeco.com/en/articles/11549952-plan-better-with-guest-breakdown-track-adults-kids-more">Guest Breakdown</a></li>
+        </ul>
       </div>
     </section>
 
@@ -421,132 +435,100 @@
       <div class="page-inner">
         <p class="step-label">Example</p>
         <h2>What one flow looks like</h2>
-        <p class="lead">Here's a real user flow from a shipped product — Toggl Track's "Creating a project" — to show what a sprint deliverable covers.</p>
+        <p class="lead">Here's a real user flow from a shipped product — Square Appointments' "Creating an appointment" — to show what a sprint deliverable covers for a staff-side booking workflow like SerVme's add reservation flow.</p>
 
         <div class="kv-list">
-          <div class="kv-item"><span class="kv-key">Product</span><span class="kv-val">Toggl Track — time tracking for teams and freelancers</span></div>
-          <div class="kv-item"><span class="kv-key">Flow</span><span class="kv-val">Creating a project (+ inviting teammates)</span></div>
-          <div class="kv-item"><span class="kv-key">Screens</span><span class="kv-val">13 screens from entry to completion</span></div>
-          <div class="kv-item"><span class="kv-key">End goal</span><span class="kv-val">Project created, team invited, ready to track time</span></div>
+          <div class="kv-item"><span class="kv-key">Product</span><span class="kv-val">Square Appointments — staff-side scheduling for service businesses</span></div>
+          <div class="kv-item"><span class="kv-key">Flow</span><span class="kv-val">Creating an appointment (+ detail panel)</span></div>
+          <div class="kv-item"><span class="kv-key">Screens</span><span class="kv-val">9 screens from entry to completion</span></div>
+          <div class="kv-item"><span class="kv-key">End goal</span><span class="kv-val">Appointment saved, visible on calendar with client context</span></div>
         </div>
 
         <div class="callout">
-          This is the kind of output you'd receive: every screen in the flow, designed end-to-end with wireframes, hi-fi UI, and an interactive prototype. Reference screens sourced from <a href="https://mobbin.com/flows/89b8eca0-4deb-4c15-9693-5ba6761d3e69" style="color:var(--text);">Mobbin</a>.
+          This is the kind of output you'd receive: every screen in the flow, designed end-to-end with wireframes, hi-fi UI, and an interactive prototype — built with MUI components for direct handoff to your React team. Reference screens sourced from <a href="https://mobbin.com/flows/1da95841-887d-4ecb-b597-ba8edd8dc400" style="color:var(--text);">Mobbin</a>.
         </div>
 
         <div class="gallery-header">
-          <h3>Creating a project</h3>
+          <h3>Creating an appointment</h3>
           <div class="gallery-meta">
-            <span><strong>Toggl Track</strong> Web</span>
-            <span><strong>13</strong> screens total</span>
+            <span><strong>Square Appointments</strong> Web</span>
+            <span><strong>9</strong> screens total</span>
           </div>
-          <p class="gallery-attribution">Reference flow from <a href="https://mobbin.com/flows/89b8eca0-4deb-4c15-9693-5ba6761d3e69?tab=screens" target="_blank" rel="noopener">Mobbin</a></p>
+          <p class="gallery-attribution">Reference flow from <a href="https://mobbin.com/flows/1da95841-887d-4ecb-b597-ba8edd8dc400?tab=screens" target="_blank" rel="noopener">Mobbin</a></p>
         </div>
 
         <div class="screen-grid">
           <article class="screen-card">
             <div class="screen-card-frame">
               <span class="screen-card-step">1</span>
-              <img src="assets/toggl/01.webp" alt="Projects overview" width="1147" height="815" loading="lazy">
+              <img src="assets/square/01.webp" alt="Calendar overview" width="768" height="521" loading="lazy">
             </div>
-            <p class="screen-card-label">Projects overview</p>
-            <p class="screen-card-desc">Entry point — sidebar navigation</p>
+            <p class="screen-card-label">Calendar overview</p>
+            <p class="screen-card-desc">Entry point — weekly schedule with Create action</p>
           </article>
           <article class="screen-card">
             <div class="screen-card-frame">
               <span class="screen-card-step">2</span>
-              <img src="assets/toggl/02.webp" alt="Navigate to Projects" width="1147" height="815" loading="lazy">
+              <img src="assets/square/02.webp" alt="Open create appointment" width="768" height="521" loading="lazy">
             </div>
-            <p class="screen-card-label">Navigate to Projects</p>
-            <p class="screen-card-desc">User selects Projects section</p>
+            <p class="screen-card-label">Open create appointment</p>
+            <p class="screen-card-desc">User clicks Create from the calendar</p>
           </article>
           <article class="screen-card">
             <div class="screen-card-frame">
               <span class="screen-card-step">3</span>
-              <img src="assets/toggl/03.webp" alt="Click Create project" width="1147" height="815" loading="lazy">
+              <img src="assets/square/03.webp" alt="Select client" width="768" height="521" loading="lazy">
             </div>
-            <p class="screen-card-label">Click Create project</p>
-            <p class="screen-card-desc">Triggers the creation flow</p>
+            <p class="screen-card-label">Select client</p>
+            <p class="screen-card-desc">Search or pick an existing guest profile</p>
           </article>
           <article class="screen-card">
             <div class="screen-card-frame">
               <span class="screen-card-step">4</span>
-              <img src="assets/toggl/04.webp" alt="New project form" width="1147" height="815" loading="lazy">
+              <img src="assets/square/04.webp" alt="Set date and time" width="768" height="521" loading="lazy">
             </div>
-            <p class="screen-card-label">New project form — name</p>
-            <p class="screen-card-desc">User enters project name</p>
+            <p class="screen-card-label">Set date and time</p>
+            <p class="screen-card-desc">Choose slot with Find availability</p>
           </article>
           <article class="screen-card">
             <div class="screen-card-frame">
               <span class="screen-card-step">5</span>
-              <img src="assets/toggl/05.webp" alt="Add project details" width="1147" height="815" loading="lazy">
+              <img src="assets/square/05.webp" alt="Add services" width="768" height="521" loading="lazy">
             </div>
-            <p class="screen-card-label">Add project details</p>
-            <p class="screen-card-desc">Additional configuration fields</p>
+            <p class="screen-card-label">Add services</p>
+            <p class="screen-card-desc">Configure service, duration, and pricing</p>
           </article>
           <article class="screen-card">
             <div class="screen-card-frame">
               <span class="screen-card-step">6</span>
-              <img src="assets/toggl/06.webp" alt="Select client" width="1147" height="815" loading="lazy">
+              <img src="assets/square/06.webp" alt="Appointment notes" width="768" height="521" loading="lazy">
             </div>
-            <p class="screen-card-label">Select client</p>
-            <p class="screen-card-desc">Assign to a client workspace</p>
+            <p class="screen-card-label">Appointment notes</p>
+            <p class="screen-card-desc">Internal notes visible to staff only</p>
           </article>
           <article class="screen-card">
             <div class="screen-card-frame">
               <span class="screen-card-step">7</span>
-              <img src="assets/toggl/07.webp" alt="Set project color" width="1147" height="815" loading="lazy">
+              <img src="assets/square/07.webp" alt="Review client context" width="768" height="521" loading="lazy">
             </div>
-            <p class="screen-card-label">Set project color</p>
-            <p class="screen-card-desc">Visual identification</p>
+            <p class="screen-card-label">Review client context</p>
+            <p class="screen-card-desc">Sidebar shows history, notes, and cards on file</p>
           </article>
           <article class="screen-card">
             <div class="screen-card-frame">
               <span class="screen-card-step">8</span>
-              <img src="assets/toggl/08.webp" alt="Configure billable settings" width="1147" height="815" loading="lazy">
+              <img src="assets/square/08.webp" alt="Save appointment" width="768" height="521" loading="lazy">
             </div>
-            <p class="screen-card-label">Configure billable settings</p>
-            <p class="screen-card-desc">Rate and billing options</p>
+            <p class="screen-card-label">Save appointment</p>
+            <p class="screen-card-desc">Confirmation and return to calendar</p>
           </article>
           <article class="screen-card">
             <div class="screen-card-frame">
               <span class="screen-card-step">9</span>
-              <img src="assets/toggl/09.webp" alt="Project created overview" width="1147" height="815" loading="lazy">
+              <img src="assets/square/09.webp" alt="Appointment detail panel" width="768" height="521" loading="lazy">
             </div>
-            <p class="screen-card-label">Project created — overview</p>
-            <p class="screen-card-desc">Success state, project is live</p>
-          </article>
-          <article class="screen-card">
-            <div class="screen-card-frame">
-              <span class="screen-card-step">10</span>
-              <img src="assets/toggl/10.webp" alt="Invite teammates prompt" width="1147" height="815" loading="lazy">
-            </div>
-            <p class="screen-card-label">Invite teammates prompt</p>
-            <p class="screen-card-desc">Optional team onboarding</p>
-          </article>
-          <article class="screen-card">
-            <div class="screen-card-frame">
-              <span class="screen-card-step">11</span>
-              <img src="assets/toggl/11.webp" alt="Invite by email" width="1147" height="815" loading="lazy">
-            </div>
-            <p class="screen-card-label">Invite by email</p>
-            <p class="screen-card-desc">Enter team member addresses</p>
-          </article>
-          <article class="screen-card">
-            <div class="screen-card-frame">
-              <span class="screen-card-step">12</span>
-              <img src="assets/toggl/12.webp" alt="Invitation sent confirmation" width="1147" height="815" loading="lazy">
-            </div>
-            <p class="screen-card-label">Invitation sent confirmation</p>
-            <p class="screen-card-desc">Feedback that invites were sent</p>
-          </article>
-          <article class="screen-card">
-            <div class="screen-card-frame">
-              <span class="screen-card-step">13</span>
-              <img src="assets/toggl/13.webp" alt="Project dashboard with team" width="1147" height="815" loading="lazy">
-            </div>
-            <p class="screen-card-label">Project dashboard with team</p>
-            <p class="screen-card-desc">End goal — ready to track time</p>
+            <p class="screen-card-label">Appointment detail panel</p>
+            <p class="screen-card-desc">End goal — booking visible with status and actions</p>
           </article>
         </div>
       </div>
@@ -569,11 +551,12 @@
         <h3>After the first sprint</h3>
         <p>Once your first flow is delivered, we plan the remaining flows together. Must screens outside the sprint stay documented — nothing gets lost — and we tackle them through a monthly engagement at a reduced rate per flow.</p>
 
-        <p class="example-label">Example — Toggl Track backlog</p>
+        <p class="example-label">Example — SerVme V2 backlog (phased)</p>
         <div class="kv-list">
-          <div class="kv-item"><span class="kv-key">Flow 2</span><span class="kv-val">Starting a timer — instant time tracking</span></div>
-          <div class="kv-item"><span class="kv-key">Flow 3</span><span class="kv-val">Generating a report — monthly invoicing</span></div>
-          <div class="kv-item"><span class="kv-key">Flow 4</span><span class="kv-val">Inviting to workspace — team onboarding</span></div>
+          <div class="kv-item"><span class="kv-key">Flow 1</span><span class="kv-val">Adding a reservation — guest breakdown, table, payment</span></div>
+          <div class="kv-item"><span class="kv-key">Flow 2</span><span class="kv-val">Reservation List View — status scanning, late timers, guest tags</span></div>
+          <div class="kv-item"><span class="kv-key">Flow 3</span><span class="kv-val">Table management — floor plan, grid view, conflict resolution</span></div>
+          <div class="kv-item"><span class="kv-key">Flow 4</span><span class="kv-val">Guest detail drawer — profile, history, activity logs</span></div>
         </div>
 
         <h3>Engagement options</h3>
@@ -627,7 +610,7 @@
           <svg viewBox="0 0 16 16"><path d="M6 3l5 5-5 5"/></svg>
         </button>
       </div>
-      <span class="lightbox-counter"><strong id="lightbox-current">1</strong> / <span id="lightbox-total">13</span></span>
+      <span class="lightbox-counter"><strong id="lightbox-current">1</strong> / <span id="lightbox-total">9</span></span>
       <button class="lightbox-btn" id="lightbox-close" aria-label="Close gallery">Esc</button>
     </div>
     <div class="lightbox-stage">
